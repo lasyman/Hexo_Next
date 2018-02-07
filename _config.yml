@@ -52,7 +52,7 @@ menu:
   tags: /tags
   #sitemap: /sitemap.xml
   #about: /about/
-  commonweal: /404.html
+  #commonweal: /404.html
 
 # Enable/Disable menu icons.
 # Icon Mapping:
@@ -92,6 +92,7 @@ scheme: Mist
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
   GitHub: https://github.com/lasyman
+  E-Mail: allanxing2014@gmail.com
 
 # Social Links Icons
 # Icon Mapping:
@@ -126,7 +127,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: /images/avatar.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -171,9 +172,6 @@ sidebar:
   
   # Enable sidebar on narrow view
   onmobile: false
-
-
-avatar: /images/avatar.jpg
   
 # ---------------------------------------------------------------
 # Post Settings
@@ -325,8 +323,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: lasyman
   count: true
 
 # Hypercomments
